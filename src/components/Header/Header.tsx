@@ -40,9 +40,9 @@ export function Header() {
           <NavHashLink smooth to="#contact" onClick={closeMenu}>
             Contacto
           </NavHashLink>
-          <a href={Resume} download className="button">
+          {/* <a href={Resume} download className="button">
             Resume
-          </a>
+          </a> */}
         </nav>
         <div
           aria-expanded={isActive ? 'true' : 'false'}
