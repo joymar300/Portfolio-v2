@@ -35,7 +35,7 @@ export function Header() {
             Sobre mi
           </NavHashLink>
           <NavHashLink smooth to="#project" onClick={closeMenu}>
-            projectos
+            proyectos
           </NavHashLink>
           <NavHashLink smooth to="#contact" onClick={closeMenu}>
             Contacto
