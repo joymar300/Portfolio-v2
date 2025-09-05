@@ -8,19 +8,26 @@ import instagramIcon from '../../assets/instagram.svg'
 
 export function Footer() {
   return (
-    <Container className="footer">
-      <a href="https://vinayaksingh.in" className="logo">
+    <Container className="footer" style={{ display: 'flex', alignItems:'center', justifyContent:'center'}} >
+      {/* <a href="https://vinayaksingh.in" className="logo">
         <span>www.vinayak</span>
         <span>singh.in</span>
-      </a>
+      </a> */}
       <div>
         <p>
-          This Website was made with <img src={reactIcon} alt="React" />
+          This Website was made with <img src={reactIcon}  alt="React" /> and using the vinayaksingh repositoy
+          <a
+          href="https://github.com/CodeVinayak/Portfolio-v2.git/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={githubIcon} alt="GitHub" />
+        </a>
           {/* <span>❤️</span> */}
         </p>
       </div>
       <div className="social-media">
-        <a
+        {/* <a
           href="https://www.linkedin.com/in/codevinayak"
           target="_blank"
           rel="noreferrer"
@@ -54,7 +61,7 @@ export function Footer() {
           rel="noreferrer"
         >
           <img src={instagramIcon} alt="Instagram" />
-        </a>
+        </a> */}
       </div>
     </Container>
   )

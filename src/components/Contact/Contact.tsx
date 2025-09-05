@@ -9,21 +9,21 @@ export function Contact(){
   return(
     <Container id="contact">
       <header>
-        <h2>Contact</h2>
-        <p>Ready to get started on your project? </p>
-        <p>Contact me now for a Free consultation.</p>
+        <h2>Contacto</h2>
+        <p>¿Listo para empezar un proyecto? </p>
+        <p>Contactame ahora para una consulta gratuita</p>
       </header>
       <div className="contacts">
         <div>
-        <a href="mailto:vinayak@vinayaksingh.com"><img src={emailIcon} alt="Email" /></a> 
-          <a href="mailto:vinayak@vinayaksingh.com">vinayak@vinayaksingh.com</a>
+        <a href="mailto:joymar300@gmail.com"><img src={emailIcon} alt="Email" /></a> 
+          <a href="mailto:joymar300@gmail.com">joymar300@gmail.com</a>
         </div>
         <div>
-        <a href="tel:+919630576848"><img src={phoneIcon} alt="Phone No" /></a>
-          <a href="tel:+919630576848">(+91) 9630576848</a>
+        <a href="tel:+573043923200"><img src={phoneIcon} alt="Phone No" /></a>
+          <a href="tel:+573043923200">(+57) 3043923200</a>
         </div>  
       </div>
-      <Form></Form>
+      {/* <Form></Form> */}
     </Container>
   )
 }
