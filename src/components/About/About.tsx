@@ -6,6 +6,8 @@ import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
+import nestjsIcon from "../../assets/nestjs-icon.svg";
+import nextjsIcon from "../../assets/nextjs-icon.svg";
 // import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
@@ -64,7 +66,7 @@ export function About() {
           </div>
           <div className="experience">
             <h3></h3><h4>DESARROLLADOR BACK-END NESTJS</h4>
-            <p>VIALCODE | febrero 2025 - junio 202</p>
+            <p>VIALCODE | febrero 2025 - junio 2025</p>
             <p>Desarrollador back end en empresa creadora de software y aplicativos web. Ejecutaba labores de mantenimiento y creación de diferentes API para los diferentes servicios bajo metodos de arquitectura clean code.</p>
           </div>
 
@@ -109,6 +111,16 @@ export function About() {
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.20 * 1000}>
               <img src={boostrapIcon} alt="bootstrap" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.20 * 1000}>
+              <img src={nestjsIcon} alt="Nestjs" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.20 * 1000}>
+              <img src={nextjsIcon} alt="Nextjs" />
             </ScrollAnimation>
           </div>
         </div>
